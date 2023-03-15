@@ -17,7 +17,7 @@ sh Stanford2D3D.sh
 ```
 ---
 ### Our dataset
-First download our dataset from https://anonfiles.com/8cx3ffI7y9/ours_zip. Then, unzip it to the './data' fold as follows:
+First download our dataset from https://1drv.ms/u/s!AmmYGRQ4ky-T1N0Bv8x7Oq_qQiKmNg?e=xUlxHR. Then, unzip it to the './data' fold as follows:
 ```
 |-- code
     |-- data      
