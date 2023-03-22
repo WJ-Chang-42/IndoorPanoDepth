@@ -4,13 +4,29 @@ We present a novel neural representation based method for depth estimation from 
 This is the official repo for the implementation of **Depth Estimation from Indoor Panoramas with Neural Scene Representation**.
 
 ## Usage
+For the Matterport3D and Stanford2D3D datasets, we adopt the rerendered version from [3D60](https://vcl3d.github.io/3D60/). The brightness-adjusted dataset could be generated with 'adjust.py'.
 ### Matterport3D
+Copy the scenes to ./data/Matterport3D
+```
+SCENES="0_0b217f59904d4bdf85d35da2cab963471 1_0b724f78b3c04feeb3e744945517073d1 0_a2577698031844e7a5982c8ee0fecdeb1 0_9f2deaf4cf954d7aa43ce5dc70e7abbe1 0_7812e14df5e746388ff6cfe8b043950a1 4_0b724f78b3c04feeb3e744945517073d1 2_0b217f59904d4bdf85d35da2cab963471 1_7812e14df5e746388ff6cfe8b043950a1 47_a2577698031844e7a5982c8ee0fecdeb1 45_a2577698031844e7a5982c8ee0fecdeb1"
+for scene in $SCENES; do
+cp 3D60/Matterport3D/"$scene"_* ./data/Matterport3D
+done
+```
+
 Direct run the following command.
 ```
 sh Matterport3D.sh
 ```
 ---
 ### Stanford2D3D
+Copy the scenes to ./data/Stanford2D3D
+```
+SCENES="1_area_5a1 1_area_5b1 5_area_5a1 10_area_61 207_area_41"
+for scene in $SCENES; do
+cp 3D60/Stanford2D3D/"$scene"_* ./data/Stanford2D3D
+done
+```
 Direct run the following command.
 ```
 sh Stanford2D3D.sh
