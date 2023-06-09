@@ -1,7 +1,7 @@
 # IndoorPanoDepth
 We present a novel neural representation based method for depth estimation from a few panoramic images of different views. 
 ![](./fig/teaser.png)
-This is the official repo for the implementation of **Depth Estimation from Indoor Panoramas with Neural Scene Representation**.
+This is the official repo for the implementation of [Depth Estimation from Indoor Panoramas with Neural Scene Representation (CVPR'2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Chang_Depth_Estimation_From_Indoor_Panoramas_With_Neural_Scene_Representation_CVPR_2023_paper.html).
 
 ## Usage
 For the Matterport3D and Stanford2D3D datasets, we adopt the rerendered version from [3D60](https://vcl3d.github.io/3D60/). The brightness-adjusted dataset could be generated with 'adjust.py'.
